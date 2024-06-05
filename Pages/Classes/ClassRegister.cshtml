@@ -1,0 +1,56 @@
+﻿@page
+@model ProjectGym.Pages.Classes.ClassRegisterModel
+
+@{
+    ViewData["Title"] = "Registrater Class";
+}
+
+<div class="container py-5">
+    <h1 class="text-center display-4 mb-4">@ViewData["Title"]</h1>
+
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow">
+                <div class="card-body">
+                    <form method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="form-group">
+                            <label asp-for="ClassTB.ClassName" class="control-label font-weight-bold">Class Name</label>
+                            <input asp-for="ClassTB.ClassName" class="form-control" />
+                            <span asp-validation-for="ClassTB.ClassName" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="ClassTB.TrainerID" class="control-label font-weight-bold">Trainer</label>
+                            <select asp-for="ClassTB.TrainerID" class="form-control" asp-items="ViewBag.TrainerID"></select>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="ClassTB.Schedule" class="control-label font-weight-bold">Schedule</label>
+                            <input asp-for="ClassTB.Schedule" class="form-control" />
+                            <span asp-validation-for="ClassTB.Schedule" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="ClassTB.Capacity" class="control-label font-weight-bold">Capacity</label>
+                            <input asp-for="ClassTB.Capacity" class="form-control" />
+                            <span asp-validation-for="ClassTB.Capacity" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group text-center mt-4">
+                            <button type="submit" class="btn btn-primary btn-lg mr-2">Create</button>
+                            <a asp-page="AllClasses" class="btn btn-secondary btn-lg">Back to List</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

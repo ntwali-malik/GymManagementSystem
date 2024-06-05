@@ -1,0 +1,40 @@
+﻿@page
+@model ProjectGym.Pages.WorkoutLogs.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete Workout Log";
+}
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow">
+                <div class="card-header bg-danger text-white">
+                    <h3 class="mb-0 text-center">Are you sure you want to delete this Workout Log?</h3>
+                </div>
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-sm-4 font-weight-bold">@Html.DisplayNameFor(model => model.WorkoutLog.WorkoutDate)</dt>
+                        <dd class="col-sm-8 mb-3">@Html.DisplayFor(model => model.WorkoutLog.WorkoutDate)</dd>
+                        <dt class="col-sm-4 font-weight-bold">@Html.DisplayNameFor(model => model.WorkoutLog.ExerciseName)</dt>
+                        <dd class="col-sm-8 mb-3">@Html.DisplayFor(model => model.WorkoutLog.ExerciseName)</dd>
+                        <dt class="col-sm-4 font-weight-bold">@Html.DisplayNameFor(model => model.WorkoutLog.Sets)</dt>
+                        <dd class="col-sm-8 mb-3">@Html.DisplayFor(model => model.WorkoutLog.Sets)</dd>
+                        <dt class="col-sm-4 font-weight-bold">@Html.DisplayNameFor(model => model.WorkoutLog.Reps)</dt>
+                        <dd class="col-sm-8 mb-3">@Html.DisplayFor(model => model.WorkoutLog.Reps)</dd>
+                        <dt class="col-sm-4 font-weight-bold">@Html.DisplayNameFor(model => model.WorkoutLog.Notes)</dt>
+                        <dd class="col-sm-8 mb-3">@Html.DisplayFor(model => model.WorkoutLog.Notes)</dd>
+                        <dt class="col-sm-4 font-weight-bold">@Html.DisplayNameFor(model => model.WorkoutLog.Member)</dt>
+                        <dd class="col-sm-8 mb-3">@Html.DisplayFor(model => model.WorkoutLog.Member.Name)</dd>
+                    </dl>
+                </div>
+                <div class="card-footer text-center">
+                    <form method="post">
+                        <input type="hidden" asp-for="WorkoutLog.LogID" />
+                        <button type="submit" class="btn btn-danger btn-lg mr-2">Delete</button>
+                        <a asp-page="./Index" class="btn btn-secondary btn-lg">Back to List</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

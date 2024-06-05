@@ -1,0 +1,44 @@
+﻿@page
+@model ProjectGym.Pages.Attendances.IndexModel
+
+@{
+    ViewData["Title"] = "Attendance";
+}
+
+<div class="container-fluid">
+    <h1 class="text-center display-4 mb-5">@ViewData["Title"]</h1>
+
+    <div class="row justify-content-end mb-3">
+        <div class="col-auto">
+            <a asp-page="Create" class="btn btn-success btn-lg">Create New</a>
+        </div>
+    </div>
+
+    <div class="table-responsive-lg">
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Date</th>
+                    <th scope="col">Member</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Attendance)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.Date)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Member.Name)</td>
+                        <td>
+                            <div class="btn-group btn-group-sm" role="group">
+                                <a asp-page="./Edit" asp-route-id="@item.AttendanceID" class="btn btn-primary">Edit</a>
+                                <a asp-page="./Details" asp-route-id="@item.AttendanceID" class="btn btn-info">View</a>
+                                <a asp-page="./Delete" asp-route-id="@item.AttendanceID" class="btn btn-danger">Delete</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

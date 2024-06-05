@@ -1,0 +1,137 @@
+﻿@page
+@model ProjectGym.Pages.TrainnerModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="/css/framework.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&family=Henny+Penny&family=Montserrat:wght@800&family=Open+Sans:wght@400;700&family=Poppins:wght@600;800&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js">
+    </script>
+    <title>Trainner Dashboard</title>
+</head>
+<body>
+    <!-- Start page -->
+    <div class="page d-f">
+        <div class="sidebar bg-w p-20 p-relative" id="sidebar">
+            <h3 class="p-relative txt-c mt-0">Gym</h3>
+            <ul>
+                <li>
+                    <a class="d-f align-center fs-14 c-black red-6 p-10" href="/Trainers/AllTrainers">
+                        <span>Trainer</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-f align-center fs-14 c-black red-6 p-10" href="/Classes/Index">
+                        <span>Class</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-f align-center fs-14 c-black red-6 p-10" href="/Login">
+                        <span>Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content w-full" id="main-content">
+            <div class="container">
+                <h2 class="my-4">Trainer Dashboard</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card mb-4">
+                            <div class="card-header bg-primary text-white">
+                                Trainee Progress
+                            </div>
+                            <div class="card-body">
+                                <canvas id="traineeProgressChart" width="100%" height="50"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card mb-4">
+                            <div class="card-header bg-success text-white">
+                                Scheduled Classes
+                            </div>
+                            <div class="card-body">
+                                <ul>
+                                    <li>Yoga class - Monday 6 PM</li>
+                                    <li>Strength Training - Wednesday 10 AM</li>
+                                    <li>Zumba - Friday 5:30 PM</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card mb-4">
+                            <div class="card-header bg-warning text-white">
+                                Trainee Messages
+                            </div>
+                            <div class="card-body">
+                                <ul>
+                                    <li>Message from John: Need advice on diet</li>
+                                    <li>Message from Sarah: Can we reschedule my session?</li>
+                                    <li>Message from Mike: Excited for the upcoming class!</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card mb-4">
+                            <div class="card-header bg-info text-white">
+                                Upcoming Tasks
+                            </div>
+                            <div class="card-body">
+                                <ul>
+                                    <li>Prepare new workout plans for trainees</li>
+                                    <li>Review progress reports and provide feedback</li>
+                                    <li>Schedule additional classes based on demand</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- End page -->
+</body>
+<script>
+    // Dummy data for trainee progress chart
+    const traineeProgressData = [20, 40, 60, 80, 90, 100];
+
+    // Trainee Progress Chart
+    new Chart(document.getElementById('traineeProgressChart'), {
+        type: 'line',
+        data: {
+            labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6'],
+            datasets: [{
+                label: 'Trainee Progress (%)',
+                data: traineeProgressData,
+                borderColor: 'rgb(255, 99, 132)',
+                borderWidth: 2,
+                fill: false
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            legend: {
+                display: false
+            }
+        }
+    });
+</script>
+</html>
+

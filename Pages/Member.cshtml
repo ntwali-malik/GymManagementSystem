@@ -1,0 +1,144 @@
+﻿@page
+@model ProjectGym.Pages.MemberModel
+@{
+    ViewData["Title"] = "Member Dashboard";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="/css/framework.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&family=Henny+Penny&family=Montserrat:wght@800&family=Open+Sans:wght@400;700&family=Poppins:wght@600;800&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js">
+    </script>
+    <title>Member Dashboard</title>
+</head>
+<body>
+    <!-- Start page -->
+    <div class="page d-f">
+        <div class="sidebar bg-w p-20 p-relative" id="sidebar">
+            <h3 class="p-relative txt-c mt-0">Gym</h3>
+            <ul>
+                <li>
+                    <a class="d-f align-center fs-14 c-black red-6 p-10" href="/Trainers/AllTrainers">
+                        <span>Trainer</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-f align-center fs-14 c-black red-6 p-10" href="/Classes/AllClasses">
+                        <span>Class</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-f align-center fs-14 c-black red-6 p-10" href="/WorkoutLogs/Index">
+                        <span>Workout Logs</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-f align-center fs-14 c-black red-6 p-10" href="/Login">
+                        <span>Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content w-full" id="main-content">
+            <div class="container">
+                <h2 class="my-4">Trainee Dashboard</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card mb-4">
+                            <div class="card-header bg-primary text-white">
+                                Personal Progress
+                            </div>
+                            <div class="card-body">
+                                <canvas id="personalProgressChart" width="100%" height="50"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card mb-4">
+                            <div class="card-header bg-success text-white">
+                                Upcoming Sessions
+                            </div>
+                            <div class="card-body">
+                                <ul>
+                                    <li>Strength Training - Monday 6 PM</li>
+                                    <li>Zumba - Wednesday 5:30 PM</li>
+                                    <li>Pilates - Friday 9 AM</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card mb-4">
+                            <div class="card-header bg-warning text-white">
+                                Trainer Messages
+                            </div>
+                            <div class="card-body">
+                                <ul>
+                                    <li>Message from Trainer: Reminder to hydrate during workouts</li>
+                                    <li>Message from Trainer: New workout plan uploaded</li>
+                                    <li>Message from Trainer: Feedback on recent progress</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card mb-4">
+                            <div class="card-header bg-info text-white">
+                                Achievements
+                            </div>
+                            <div class="card-body">
+                                <ul>
+                                    <li>Completed 30-day fitness challenge</li>
+                                    <li>Reached personal best in deadlifts</li>
+                                    <li>Consistently attended 20 sessions this month</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- End page -->
+
+</body>
+<script>
+    // Dummy data for personal progress chart
+    const personalProgressData = [20, 40, 60, 80, 90, 100];
+
+    // Personal Progress Chart
+    new Chart(document.getElementById('personalProgressChart'), {
+        type: 'line',
+        data: {
+            labels: ['Week 1', 'Week 2', 'Week 3', 'Week 4', 'Week 5', 'Week 6'],
+            datasets: [{
+                label: 'Personal Progress (%)',
+                data: personalProgressData,
+                borderColor: 'rgb(75, 192, 192)',
+                borderWidth: 2,
+                fill: false
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            legend: {
+                display: false
+            }
+        }
+    });
+</script>
+</html>
+

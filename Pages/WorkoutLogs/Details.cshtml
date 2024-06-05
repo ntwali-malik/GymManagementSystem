@@ -1,0 +1,42 @@
+﻿@page
+@model ProjectGym.Pages.WorkoutLogs.DetailsModel
+
+@{
+    ViewData["Title"] = "Workout Log Details";
+}
+<div class="container py-5">
+    <h1 class="text-center display-4 mb-4">@ViewData["Title"]</h1>
+
+    <div class="card shadow" id="report">
+        <div class="card-body">
+            <h4 class="card-title">Workout Log Details</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-4 font-weight-bold">@Html.DisplayNameFor(model => model.WorkoutLog.WorkoutDate)</dt>
+                <dd class="col-sm-8 mb-3">@Html.DisplayFor(model => model.WorkoutLog.WorkoutDate)</dd>
+                <dt class="col-sm-4 font-weight-bold">@Html.DisplayNameFor(model => model.WorkoutLog.ExerciseName)</dt>
+                <dd class="col-sm-8 mb-3">@Html.DisplayFor(model => model.WorkoutLog.ExerciseName)</dd>
+                <dt class="col-sm-4 font-weight-bold">@Html.DisplayNameFor(model => model.WorkoutLog.Sets)</dt>
+                <dd class="col-sm-8 mb-3">@Html.DisplayFor(model => model.WorkoutLog.Sets)</dd>
+                <dt class="col-sm-4 font-weight-bold">@Html.DisplayNameFor(model => model.WorkoutLog.Reps)</dt>
+                <dd class="col-sm-8 mb-3">@Html.DisplayFor(model => model.WorkoutLog.Reps)</dd>
+                <dt class="col-sm-4 font-weight-bold">@Html.DisplayNameFor(model => model.WorkoutLog.Notes)</dt>
+                <dd class="col-sm-8 mb-3">@Html.DisplayFor(model => model.WorkoutLog.Notes)</dd>
+                <dt class="col-sm-4 font-weight-bold">@Html.DisplayNameFor(model => model.WorkoutLog.Member)</dt>
+                <dd class="col-sm-8 mb-3">@Html.DisplayFor(model => model.WorkoutLog.Member.Name)</dd>
+            </dl>
+        </div>
+        <div class="card-footer text-center">
+            <a asp-page="./Edit" asp-route-id="@Model.WorkoutLog.LogID" class="btn btn-primary btn-lg mr-2">Edit</a>
+            <a asp-page="./Index" class="btn btn-secondary btn-lg">Back to List</a>
+        </div>
+    </div>
+</div>
+
+<script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+<script>
+    function generatePDF() {
+        const element = document.getElementById("report");
+        html2pdf().from(element).save();
+    }
+</script>

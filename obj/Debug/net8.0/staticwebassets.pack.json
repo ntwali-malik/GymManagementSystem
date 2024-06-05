@@ -1,0 +1,777 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProjectGym.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ProjectGym.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font-awesome.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\css\\templatemo-training-studio.css",
+      "PackagePath": "staticwebassets\\assets\\css\\templatemo-training-studio.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\fonts\\flexslider-icon.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flexslider-icon.eot"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\fonts\\flexslider-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flexslider-icon.svg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\fonts\\flexslider-icon.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flexslider-icon.ttf"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\fonts\\flexslider-icon.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flexslider-icon.woff"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\slick.eot"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\slick.svg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\slick.woff"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\images\\contact-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\contact-bg.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\images\\cta-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cta-bg.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\images\\features-first-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\features-first-icon.png"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\images\\first-trainer.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\first-trainer.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\images\\gym-video.mp4",
+      "PackagePath": "staticwebassets\\assets\\images\\gym-video.mp4"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\images\\line-dec.png",
+      "PackagePath": "staticwebassets\\assets\\images\\line-dec.png"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\images\\schedule-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\schedule-bg.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\images\\second-trainer.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\second-trainer.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\images\\slide-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-01.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\images\\tabs-first-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\tabs-first-icon.png"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\images\\third-trainer.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\third-trainer.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\images\\training-image-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\training-image-01.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\images\\training-image-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\training-image-02.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\images\\training-image-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\training-image-03.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\images\\training-image-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\training-image-04.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\js\\accordions.js",
+      "PackagePath": "staticwebassets\\assets\\js\\accordions.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\js\\imgfix.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\imgfix.min.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\js\\jquery-2.1.0.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-2.1.0.min.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\js\\mixitup.js",
+      "PackagePath": "staticwebassets\\assets\\js\\mixitup.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\js\\popper.js",
+      "PackagePath": "staticwebassets\\assets\\js\\popper.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\js\\scrollreveal.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\scrollreveal.min.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\assets\\js\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\waypoints.min.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\avatar.png",
+      "PackagePath": "staticwebassets\\avatar.png"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\avi.svg",
+      "PackagePath": "staticwebassets\\avi.svg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\contact-bg.jpg",
+      "PackagePath": "staticwebassets\\contact-bg.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\css\\all.css",
+      "PackagePath": "staticwebassets\\css\\all.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\all.min.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\css\\brands.css",
+      "PackagePath": "staticwebassets\\css\\brands.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\css\\brands.min.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\css\\framework.css",
+      "PackagePath": "staticwebassets\\css\\framework.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\css\\regular.css",
+      "PackagePath": "staticwebassets\\css\\regular.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\css\\regular.min.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\css\\solid.css",
+      "PackagePath": "staticwebassets\\css\\solid.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\css\\solid.min.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\css\\styling.css",
+      "PackagePath": "staticwebassets\\css\\styling.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\css\\templatemo-training-studio.css",
+      "PackagePath": "staticwebassets\\css\\templatemo-training-studio.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\css\\v4-font-face.css",
+      "PackagePath": "staticwebassets\\css\\v4-font-face.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\css\\v4-font-face.min.css",
+      "PackagePath": "staticwebassets\\css\\v4-font-face.min.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\css\\v4-shims.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\css\\v5-font-face.css",
+      "PackagePath": "staticwebassets\\css\\v5-font-face.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\css\\v5-font-face.min.css",
+      "PackagePath": "staticwebassets\\css\\v5-font-face.min.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\cta-bg.jpg",
+      "PackagePath": "staticwebassets\\cta-bg.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\dll.svg",
+      "PackagePath": "staticwebassets\\dll.svg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\eps.svg",
+      "PackagePath": "staticwebassets\\eps.svg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\features-first-icon.png",
+      "PackagePath": "staticwebassets\\features-first-icon.png"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\first-trainer.jpg",
+      "PackagePath": "staticwebassets\\first-trainer.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\gym-video.mp4",
+      "PackagePath": "staticwebassets\\gym-video.mp4"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\images\\contact-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\contact-bg.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\images\\cta-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\cta-bg.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\images\\features-first-icon.png",
+      "PackagePath": "staticwebassets\\images\\features-first-icon.png"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\images\\first-trainer.jpg",
+      "PackagePath": "staticwebassets\\images\\first-trainer.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\images\\gym-video.mp4",
+      "PackagePath": "staticwebassets\\images\\gym-video.mp4"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\images\\gym2.jpg",
+      "PackagePath": "staticwebassets\\images\\gym2.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\images\\gym3.jpg",
+      "PackagePath": "staticwebassets\\images\\gym3.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\images\\line-dec.png",
+      "PackagePath": "staticwebassets\\images\\line-dec.png"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\images\\schedule-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\schedule-bg.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\images\\second-trainer.jpg",
+      "PackagePath": "staticwebassets\\images\\second-trainer.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\images\\slide-01.jpg",
+      "PackagePath": "staticwebassets\\images\\slide-01.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\images\\tabs-first-icon.png",
+      "PackagePath": "staticwebassets\\images\\tabs-first-icon.png"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\images\\third-trainer.jpg",
+      "PackagePath": "staticwebassets\\images\\third-trainer.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\images\\training-image-01.jpg",
+      "PackagePath": "staticwebassets\\images\\training-image-01.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\images\\training-image-02.jpg",
+      "PackagePath": "staticwebassets\\images\\training-image-02.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\images\\training-image-03.jpg",
+      "PackagePath": "staticwebassets\\images\\training-image-03.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\images\\training-image-04.jpg",
+      "PackagePath": "staticwebassets\\images\\training-image-04.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\js\\accordions.js",
+      "PackagePath": "staticwebassets\\js\\accordions.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\js\\imgfix.min.js",
+      "PackagePath": "staticwebassets\\js\\imgfix.min.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\js\\jquery-2.1.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-2.1.0.min.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\js\\mixitup.js",
+      "PackagePath": "staticwebassets\\js\\mixitup.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\js\\popper.js",
+      "PackagePath": "staticwebassets\\js\\popper.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\js\\scrollreveal.min.js",
+      "PackagePath": "staticwebassets\\js\\scrollreveal.min.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\js\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\js\\waypoints.min.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\line-dec.png",
+      "PackagePath": "staticwebassets\\line-dec.png"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\news-01.png",
+      "PackagePath": "staticwebassets\\news-01.png"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\news-02.png",
+      "PackagePath": "staticwebassets\\news-02.png"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\news-03.png",
+      "PackagePath": "staticwebassets\\news-03.png"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\news-04.png",
+      "PackagePath": "staticwebassets\\news-04.png"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\pdf.svg",
+      "PackagePath": "staticwebassets\\pdf.svg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\project.png",
+      "PackagePath": "staticwebassets\\project.png"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\psd.svg",
+      "PackagePath": "staticwebassets\\psd.svg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\schedule-bg.jpg",
+      "PackagePath": "staticwebassets\\schedule-bg.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\second-trainer.jpg",
+      "PackagePath": "staticwebassets\\second-trainer.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\slide-01.jpg",
+      "PackagePath": "staticwebassets\\slide-01.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\tabs-first-icon.png",
+      "PackagePath": "staticwebassets\\tabs-first-icon.png"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\team-01.png",
+      "PackagePath": "staticwebassets\\team-01.png"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\team-02.png",
+      "PackagePath": "staticwebassets\\team-02.png"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\team-03.png",
+      "PackagePath": "staticwebassets\\team-03.png"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\team-04.png",
+      "PackagePath": "staticwebassets\\team-04.png"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\team-05.png",
+      "PackagePath": "staticwebassets\\team-05.png"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\third-trainer.jpg",
+      "PackagePath": "staticwebassets\\third-trainer.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\training-image-01.jpg",
+      "PackagePath": "staticwebassets\\training-image-01.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\training-image-02.jpg",
+      "PackagePath": "staticwebassets\\training-image-02.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\training-image-03.jpg",
+      "PackagePath": "staticwebassets\\training-image-03.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\training-image-04.jpg",
+      "PackagePath": "staticwebassets\\training-image-04.jpg"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\user-200x300.webp",
+      "PackagePath": "staticwebassets\\user-200x300.webp"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\welcome.png",
+      "PackagePath": "staticwebassets\\welcome.png"
+    },
+    {
+      "Id": "E:\\AUCA\\SEM 5\\Dot Net\\WorkSpace\\ProjectGym\\wwwroot\\zip.svg",
+      "PackagePath": "staticwebassets\\zip.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProjectGym.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ProjectGym.props",
+      "PackagePath": "build\\ProjectGym.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ProjectGym.props",
+      "PackagePath": "buildMultiTargeting\\ProjectGym.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ProjectGym.props",
+      "PackagePath": "buildTransitive\\ProjectGym.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,47 @@
+﻿@page
+@model ProjectGym.Pages.Attendances.CreateModel
+
+@{
+    ViewData["Title"] = "Add Attendance";
+}
+
+<div class="container py-5">
+    <h1 class="text-center display-4 mb-4">@ViewData["Title"]</h1>
+
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow">
+                <div class="card-body">
+                    <form method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="form-group">
+                            <label asp-for="Attendance.MemberID" class="control-label font-weight-bold">Member</label>
+                            <select asp-for="Attendance.MemberID" class="form-control" asp-items="ViewBag.MemberID"></select>
+                            <span asp-validation-for="Attendance.MemberID" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Attendance.Date" class="control-label font-weight-bold">Date</label>
+                            <input asp-for="Attendance.Date" class="form-control" />
+                            <span asp-validation-for="Attendance.Date" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group text-center mt-4">
+                            <button type="submit" class="btn btn-primary btn-lg">Create</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer text-center">
+                    <a asp-page="Index" class="btn btn-secondary btn-lg">Back to List</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

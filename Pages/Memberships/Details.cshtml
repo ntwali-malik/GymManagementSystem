@@ -1,0 +1,37 @@
+﻿@page
+@model ProjectGym.Pages.Memberships.DetailsModel
+
+@{
+    ViewData["Title"] = "Membership Details";
+}
+<script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+<div class="container py-5">
+    <h1 class="text-center display-4 mb-4">@ViewData["Title"]</h1>
+
+    <div class="card shadow" id="report">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Membership</h4>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-4 font-weight-bold">Start Date:</dt>
+                <dd class="col-sm-8 mb-3">@Html.DisplayFor(model => model.Membership.StartDate)</dd>
+                <dt class="col-sm-4 font-weight-bold">End Date:</dt>
+                <dd class="col-sm-8 mb-3">@Html.DisplayFor(model => model.Membership.EndDate)</dd>
+                <dt class="col-sm-4 font-weight-bold">Member:</dt>
+                <dd class="col-sm-8 mb-3">@Html.DisplayFor(model => model.Membership.Member.Name)</dd>
+            </dl>
+        </div>
+        <div class="card-footer text-center">
+            <a asp-page="./Edit" asp-route-id="@Model.Membership.MembershipID" class="btn btn-primary btn-lg mr-2">Edit</a>
+            <a asp-page="./Index" class="btn btn-secondary btn-lg">Back to List</a>
+        </div>
+    </div>
+</div>
+
+<script>
+    function generatePDF() {
+        const element = document.getElementById("report");
+        html2pdf().from(element).save();
+    }
+</script>

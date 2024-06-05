@@ -1,0 +1,52 @@
+﻿@page
+@model ProjectGym.Pages.Memberships.EditModel
+
+@{
+    ViewData["Title"] = "Edit Membership";
+}
+
+<div class="container py-5">
+    <h1 class="text-center display-4 mb-4">@ViewData["Title"]</h1>
+
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow">
+                <div class="card-body">
+                    <form method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="Membership.MembershipID" />
+
+                        <div class="form-group">
+                            <label asp-for="Membership.MemberID" class="control-label font-weight-bold">Member</label>
+                            <select asp-for="Membership.MemberID" class="form-control" asp-items="ViewBag.MemberID"></select>
+                            <span asp-validation-for="Membership.MemberID" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Membership.StartDate" class="control-label font-weight-bold">Start Date</label>
+                            <input asp-for="Membership.StartDate" class="form-control" />
+                            <span asp-validation-for="Membership.StartDate" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Membership.EndDate" class="control-label font-weight-bold">End Date</label>
+                            <input asp-for="Membership.EndDate" class="form-control" />
+                            <span asp-validation-for="Membership.EndDate" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group text-center mt-4">
+                            <button type="submit" class="btn btn-primary btn-lg mr-2">Save</button>
+                            <a asp-page="./Index" class="btn btn-secondary btn-lg">Back to List</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

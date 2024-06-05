@@ -1,0 +1,211 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProjectGym
+build_property.RootNamespace = ProjectGym
+build_property.ProjectDir = E:\AUCA\SEM 5\Dot Net\WorkSpace\ProjectGym\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\AUCA\SEM 5\Dot Net\WorkSpace\ProjectGym
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Attendances/AllAttendances.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXR0ZW5kYW5jZXNcQWxsQXR0ZW5kYW5jZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Attendances/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXR0ZW5kYW5jZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Attendances/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXR0ZW5kYW5jZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Attendances/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXR0ZW5kYW5jZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Attendances/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXR0ZW5kYW5jZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Attendances/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXR0ZW5kYW5jZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Classes/AllClasses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xhc3Nlc1xBbGxDbGFzc2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Classes/ClassRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xhc3Nlc1xDbGFzc1JlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Classes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xhc3Nlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Classes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xhc3Nlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Classes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xhc3Nlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Classes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xhc3Nlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Classes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xhc3Nlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Member.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Memberships/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYmVyc2hpcHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Memberships/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYmVyc2hpcHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Memberships/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYmVyc2hpcHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Memberships/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYmVyc2hpcHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Memberships/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYmVyc2hpcHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Members/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYmVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Members/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYmVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Members/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYmVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Members/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYmVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Members/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYmVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnblVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Trainers/AllTrainers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5lcnNcQWxsVHJhaW5lcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Trainers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5lcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Trainers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5lcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Trainers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5lcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Trainers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5lcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Trainers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5lcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Trainner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5uZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/WorkoutLogs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV29ya291dExvZ3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/WorkoutLogs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV29ya291dExvZ3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/WorkoutLogs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV29ya291dExvZ3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/WorkoutLogs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV29ya291dExvZ3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/WorkoutLogs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV29ya291dExvZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/AUCA/SEM 5/Dot Net/WorkSpace/ProjectGym/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-18xh4cidbm

@@ -1,0 +1,44 @@
+﻿@page
+@model ProjectGym.Pages.Members.DetailsModel
+
+@{
+    ViewData["Title"] = "Member Details";
+}
+
+<div class="container py-5">
+    <h1 class="text-center display-4 mb-4">@ViewData["Title"]</h1>
+
+    <div class="row justify-content-center" id="report">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Member</h4>
+                </div>
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-sm-4 font-weight-bold">Name:</dt>
+                        <dd class="col-sm-8 mb-3">@Html.DisplayFor(model => model.Member.Name)</dd>
+                        <dt class="col-sm-4 font-weight-bold">Email:</dt>
+                        <dd class="col-sm-8 mb-3">@Html.DisplayFor(model => model.Member.email)</dd>
+                        <dt class="col-sm-4 font-weight-bold">Phone:</dt>
+                        <dd class="col-sm-8 mb-3">@Html.DisplayFor(model => model.Member.phone)</dd>
+                        <dt class="col-sm-4 font-weight-bold">Address:</dt>
+                        <dd class="col-sm-8 mb-3">@Html.DisplayFor(model => model.Member.address)</dd>
+                    </dl>
+                </div>
+                <div class="card-footer text-center">
+                    <a asp-page="./Edit" asp-route-id="@Model.Member.MemberID" class="btn btn-primary btn-lg mr-2">Edit</a>
+                    <a asp-page="./Index" class="btn btn-secondary btn-lg">Back to List</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+<script>
+    function generatePDF() {
+        const element = document.getElementById("report");
+        html2pdf().from(element).save();
+    }
+</script>

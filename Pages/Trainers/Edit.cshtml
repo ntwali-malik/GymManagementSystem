@@ -1,0 +1,52 @@
+﻿@page
+@model ProjectGym.Pages.Trainers.EditModel
+
+@{
+    ViewData["Title"] = "Edit A Trainer";
+}
+
+<div class="container py-5">
+    <h1 class="text-center display-4 mb-4">@ViewData["Title"]</h1>
+
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow">
+                <div class="card-body">
+                    <form method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="Trainer.TrainerID" />
+
+                        <div class="form-group">
+                            <label asp-for="Trainer.Name" class="control-label font-weight-bold">Name</label>
+                            <input asp-for="Trainer.Name" class="form-control" />
+                            <span asp-validation-for="Trainer.Name" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Trainer.Contact" class="control-label font-weight-bold">Contact</label>
+                            <input asp-for="Trainer.Contact" class="form-control" />
+                            <span asp-validation-for="Trainer.Contact" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Trainer.Specialties" class="control-label font-weight-bold">Specialties</label>
+                            <input asp-for="Trainer.Specialties" class="form-control" />
+                            <span asp-validation-for="Trainer.Specialties" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group text-center mt-4">
+                            <button type="submit" class="btn btn-primary btn-lg mr-2">Save</button>
+                            <a asp-page="./Index" class="btn btn-secondary btn-lg">Back to List</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

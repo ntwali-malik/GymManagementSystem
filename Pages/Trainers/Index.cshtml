@@ -1,0 +1,47 @@
+﻿@page
+@model ProjectGym.Pages.Trainers.IndexModel
+
+@{
+    ViewData["Title"] = "Trainers";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-between align-items-center mb-4">
+        <div class="col-auto">
+            <h1 class="display-4 mb-0">@ViewData["Title"]</h1>
+        </div>
+        <div class="col-auto">
+            <a asp-page="Create" class="btn btn-primary btn-lg">Create New</a>
+        </div>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Name</th>
+                    <th>Contact</th>
+                    <th>Specialties</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Trainer)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Contact)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Specialties)</td>
+                        <td>
+                            <div class="btn-group" role="group">
+                                <a asp-page="./Edit" asp-route-id="@item.TrainerID" class="btn btn-sm btn-primary">Edit</a>
+                                <a asp-page="./Details" asp-route-id="@item.TrainerID" class="btn btn-sm btn-info">View</a>
+                                <a asp-page="./Delete" asp-route-id="@item.TrainerID" class="btn btn-sm btn-danger">Delete</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

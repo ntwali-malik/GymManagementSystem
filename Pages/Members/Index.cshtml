@@ -1,0 +1,49 @@
+﻿@page
+@model ProjectGym.Pages.Members.IndexModel
+
+@{
+    ViewData["Title"] = "All Members";
+}
+
+<div class="container py-5">
+    <div class="row justify-content-between align-items-center mb-4">
+        <div class="col-auto">
+            <h1 class="display-4 mb-0">@ViewData["Title"]</h1>
+        </div>
+        <div class="col-auto">
+            <a asp-page="Create" class="btn btn-primary btn-lg">Add New Member</a>
+        </div>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Phone</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Member)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                        <td>@Html.DisplayFor(modelItem => item.email)</td>
+                        <td>@Html.DisplayFor(modelItem => item.phone)</td>
+                        <td>@Html.DisplayFor(modelItem => item.address)</td>
+                        <td>
+                            <div class="btn-group btn-group-sm" role="group">
+                                <a asp-page="./Edit" asp-route-id="@item.MemberID" class="btn btn-outline-primary">Edit</a>
+                                <a asp-page="./Details" asp-route-id="@item.MemberID" class="btn btn-outline-info">View</a>
+                                <a asp-page="./Delete" asp-route-id="@item.MemberID" class="btn btn-outline-danger">Delete</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
